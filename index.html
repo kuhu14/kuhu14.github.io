@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kuhu Gupta</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .container{
+            background-color: whitesmoke;
+            margin: 0px;
+        }
+        .row{
+            background-color: aquamarine;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box{
+            background-color:  aqua;
+            padding: 10px;
+        }
+        .row1{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            height: 300px;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <h1> Kuhu </h1>
+    <!-- <h1> Kuhu </h1>
     <hr>
     <a href="#"> Home </a> 
     <a href="#"> About </a>
@@ -16,6 +41,23 @@
     <img src="https://picsum.photos/seed/picsum/600/300?grayscale">
     <hr>
     <h4>@copyright 2024. All rights reserved. </h4>
-    <hr>
+    <hr> -->
+    <div class="container">
+        <div class="row">
+            <div class="box">
+               <h1> Kuhu Gupta </h1>
+            </div>
+            <div class="box"><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Projects</a> | <a href="#">Services</a> | <a href="#">Contact</a></div>
+        </div>
+        <div class="row1">
+            <div>
+                <h1> Kuhu Gupta</h1>
+                <h3> Full Stack Developer</h3>
+            </div>
+            <div>
+                <img src="https://picsum.photos/seed/picsum/600/300?grayscale">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
