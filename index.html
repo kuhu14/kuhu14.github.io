@@ -39,6 +39,23 @@
             height: 700px;
             align-items: center;
         }
+        .row3{
+            display: flex;
+            background-color:rgb(0, 127, 115);
+            color: lightgray;
+            justify-content: space-around;
+            padding: 20px;
+            height: 220px;
+            align-items: center;
+        }.row4{
+            display: flex;
+            background-color:rgb(0, 127, 115);
+            color: lightgray;
+            justify-content: space-around;
+            padding: 20px;
+            height: 400px;
+            align-items: center;
+        }
         .box1{
             padding: 20px;
             background-color: aliceblue;
@@ -54,8 +71,13 @@
             text-decoration: underline;
             font-size: large;
         }
-        .imgclass{
-            border-radius: 100px;
+        .image-container img {
+            width: 175px;
+            height: 75px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.3s;
+            margin: 20px;
         }
     </style>
 </head>
@@ -94,16 +116,26 @@
             </div>
         </div>
         <div class="row2" id="About">
-            <div>
+            <div class="image-container">
                 <h1> About Me </h1> <br>
-                <p> My name is Kuhu. I am a web developer. I passionately combine good design, technology, and innovation in all my projects. I'm currently focused on learning beckend development. </p>
+                <p> My name is Kuhu. I am a web developer. I passionately combine good design, technology, and innovation in all my projects. I'm currently focused on learning beckend development. I am cuurently an undergraduate pursuing her B.Tech in Artificial Intelligence. I especially love solving problems that require analytical and crytical thinking. I work well in a team as well as solo; collaboration, planning and coordination have never been problems for me before. </p>
                 <br>
                 <h1> Technology Tools </h1>
-                <p> I use a combination of open-source software and technologies to build user-focused, performant apps and websites.</p>
-                <img src=>
+                <p> Throughout my career in the enginnering department, I have had the opportunity to learn and implement numerous technological tools. I use a combination of open-source, reliable software and technologies to build user-focused, performant apps and websites.</p>
+                    <img src="asset\C++.png">
+                    <img src="asset\python.png">
+                    <img src="asset\css.png">
+                    <img src="asset\html.png">
+                    <img src="asset\java.png">
+                    <img src="asset\mysql.png">
+                    <img src="asset\matlab.jpg">
+                    <img src="asset\autocad.jpg">
+                    <img src="asset\react.png">
+                    <img src="asset\node.png">
+                    <img src="asset\mongo.png">
             </div>
             <div>
-                <img src="https://picsum.photos/id/170/600/400?grayscale">
+                <img src="https://picsum.photos/id/370/500/400">
             </div>
         </div>
         <div class="row1" id="Projects">
@@ -117,7 +149,7 @@
             </div>
         </div> 
         <h1 class="row3" id="Services"> Services </h1>
-        <div class="row2">
+        <div class="row4">
             <div class="box1"> 
                 <h3>Web App development </h3>
                 <p>
