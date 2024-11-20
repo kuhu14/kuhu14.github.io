@@ -14,6 +14,7 @@
         }
         .row{
             background-color: rgb(100, 241, 105);
+            color: rgb(0, 65, 61);
             display: flex;
             justify-content: space-between;
             position: sticky;
@@ -33,7 +34,7 @@
         .row2{
             display: flex;
             background-color:rgb(0, 127, 115);
-            color: lightgray;
+            color: seashell;
             justify-content: space-around;
             padding: 20px;
             height: 700px;
@@ -41,31 +42,31 @@
         }
         .row3{
             display: flex;
-            background-color:rgb(0, 127, 115);
-            color: lightgray;
+            background-color:seashell;
+            color:rgb(0, 127, 115);
             justify-content: space-around;
-            padding: 10px;
-            height: 100px;
-            align-items: last baseline;
+            padding: 70px;
+            height: 150px;
+            align-items: center;
         }.row4{
             display: flex;
-            background-color:rgb(0, 127, 115);
-            color: lightgray;
+            background-color:seashell;
+            color: rgb(0, 127, 115);
             justify-content: space-around;
-            padding: 50px;
-            height: 390px;
-            align-items: center;
+            padding: 30px;
+            height: 350px;
+            align-items: first baseline;
         }
         .box1{
             padding: 70px;
-            background-color: aliceblue;
-            color: black;
+            background-color: rgb(0, 65, 61);
+            color: seashell;
             margin: 20px;
             border-radius: 20px;
             justify-items: center;
         }
-        a{
-            text-decoration: none;
+        img{
+            border-radius: 5px;
         }
         a:hover{
             display: inline;
@@ -76,24 +77,12 @@
             width: 175px;
             height: 75px;
             border: 1px solid #ccc;
-            border-radius: 5px;
             transition: transform 0.3s;
             margin: 20px;
         }
     </style>
 </head>
 <body>
-    <!-- <h1> Kuhu </h1>
-    <hr>
-    <a href="#"> Home </a> 
-    <a href="#"> About </a>
-    <a href="#"> Projects </a> 
-    <a href="#"> Contact </a> 
-    <h3> My name is Kuhu. I am a web developer. </h3>
-    <img src="https://picsum.photos/seed/picsum/600/300?grayscale">
-    <hr>
-    <h4>@copyright 2024. All rights reserved. </h4>
-    <hr> -->
     <div class="container">
         <div class="row">
             <div class="box">
@@ -102,8 +91,8 @@
             <div class="box" class="a:hover">
                     <a href="#Home">Home</a>
                     <a href="#About">About</a>
-                    <a href="#Projects">Projects</a>
                     <a href="#Services">Services</a>
+                    <a href="#Projects">Projects</a>
                     <a href="#Contact">Contact</a>
             </div>
         </div>
@@ -139,18 +128,16 @@
                 <img src="https://picsum.photos/id/370/500/400">
             </div>
         </div>
-        <div class="row1" id="Projects">
+         
+        <div class="row3" id="Services">
             <div>
-                <h1> Projects </h1>
-                <ol>
-                    <li> Project 1 </li>
-                    <li> Project 2 </li>
-                    <li> Project 3 </li>
-                </ol>
+                <h1> Services</h1> <br> <br> <br>
+                <h2> What Do I Provide?</h2> 
             </div>
-        </div> 
-        <h1 class="row3" id="Services"> Services</h1>
-        <h2 class="row3"> What Do I Provide?</h2> 
+            <div>
+                <img src="https://picsum.photos/id/7/600/280?grayscale">
+            </div>
+        </div>
         <div class="row4">
             <div class="box1"> 
                 <h3>Web App development </h3> <br>
@@ -171,6 +158,16 @@
                 </p>
             </div>
         </div>  
+        <div class="row2" id="Projects">
+            <div>
+                <h1> Projects </h1>
+                <ol>
+                    <li> Project 1 </li>
+                    <li> Project 2 </li>
+                    <li> Project 3 </li>
+                </ol>
+            </div>
+        </div>
         <div class="row1" id="Contact">
             <div>
                 <h1> Contacts </h1>
