@@ -40,10 +40,22 @@
             align-items: center;
         }
         .box1{
-            padding: 10px;
+            padding: 20px;
             background-color: aliceblue;
             color: black;
-            margin: 10px;
+            margin: 20px;
+            border-radius: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            display: inline;
+            text-decoration: underline;
+            font-size: large;
+        }
+        .imgclass{
+            border-radius: 100px;
         }
     </style>
 </head>
@@ -64,14 +76,12 @@
             <div class="box">
                <h1> Kuhu Gupta </h1>
             </div>
-            <div class="box">
-                <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
+            <div class="box" class="a:hover">
+                    <a href="#Home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Services">Services</a>
+                    <a href="#Contact">Contact</a>
             </div>
         </div>
         <div class="row1" id="Home">
@@ -106,9 +116,8 @@
                 </ol>
             </div>
         </div> 
-        <h1 id="Services"> Services </h1>
+        <h1 class="row3" id="Services"> Services </h1>
         <div class="row2">
-           
             <div class="box1"> 
                 <h3>Web App development </h3>
                 <p>
