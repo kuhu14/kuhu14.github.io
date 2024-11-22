@@ -46,7 +46,7 @@
     color:rgb(0, 127, 115);
     justify-content: space-around;
     padding: 10px;
-    height: 100%;
+    height: 50%;
     align-items: center;
 }.row4{
     display: flex;
@@ -54,7 +54,7 @@
     color: rgb(0, 127, 115);
     justify-content: space-around;
     padding: 10px;
-    height: 100%;
+    height: 50%;
     align-items: first baseline;
 }
 .box1{
@@ -72,7 +72,7 @@
     color:seashell;
     justify-content: space-around;
     padding: 10px;
-    height: 100%;
+    height: 50%;
     align-items: center;
 }.row6{
     display: flex;
@@ -80,7 +80,7 @@
     color: seashell;
     justify-content: space-around;
     padding: 10px;
-    height: 100%;
+    height: 50%;
     align-items: first baseline;
 }
 .box2{
