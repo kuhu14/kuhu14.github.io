@@ -3,8 +3,14 @@
     scroll-behavior: smooth;
 }
 .container{
+    position: fixed;
+    overflow: auto;
     background-color: seashell;
     margin: 0px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 .row{
     background-color: rgb(100, 241, 105);
@@ -22,7 +28,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    height: 700px;
+    height: 100%;
     align-items: center;
 }
 .row2{
@@ -31,7 +37,7 @@
     color: seashell;
     justify-content: space-around;
     padding: 20px;
-    height: 700px;
+    height: 100%;
     align-items: center;
 }
 .row3{
@@ -39,16 +45,16 @@
     background-color:seashell;
     color:rgb(0, 127, 115);
     justify-content: space-around;
-    padding: 100px;
-    height: 150px;
+    padding: 10px;
+    height: 100%;
     align-items: center;
 }.row4{
     display: flex;
     background-color:seashell;
     color: rgb(0, 127, 115);
     justify-content: space-around;
-    padding: 20px;
-    height: 350px;
+    padding: 10px;
+    height: 100%;
     align-items: first baseline;
 }
 .box1{
@@ -58,23 +64,23 @@
     margin: 20px;
     border-radius: 20px;
     justify-items: center;
-    height: 150px;
+    height: auto;
 }
 .row5{
     display: flex;
     background-color:rgb(0, 127, 115);
     color:seashell;
     justify-content: space-around;
-    padding: 100px;
-    height: 150px;
+    padding: 10px;
+    height: 100%;
     align-items: center;
 }.row6{
     display: flex;
     background-color:rgb(0, 127, 115);
     color: seashell;
     justify-content: space-around;
-    padding: 20px;
-    height: 350px;
+    padding: 10px;
+    height: 100%;
     align-items: first baseline;
 }
 .box2{
@@ -84,7 +90,7 @@
     margin: 20px;
     border-radius: 20px;
     justify-items: center;
-    height: 150px;
+    height: auto;
 }
 img{
     border-radius: 5px;
@@ -95,7 +101,7 @@ a:hover{
     font-size: large;
 }
 .image-container img {
-    width: 175px;
+    width: auto;
     height: 75px;
     border: 1px solid #ccc;
     transition: transform 0.3s;
