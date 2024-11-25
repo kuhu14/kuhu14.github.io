@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const f1 = () => {
+            const product = {
+                name: "Product 1",
+                price: 35
+            }
+            const names = ["Aditya", "Harshitha", "Varshini"]
+           // document.write(names[0])
+             let m = document.getElementById("msg")
+            // m.innerHTML = names[2]
+            m.innerHTML = product.name + " - " + product.price
+        }
+    </script>
+</head>
+<body>
+    <button onclick="f1()">Submit</button>
+    <hr>
+    <div id="msg"></div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const f1 = () => {
+           // alert("Hello World");
+           let str=""
+           const names = ["Vamis", "Vismay", "Naumita", "Ramya", "Bittu"];
+           names.map((value, index)=>{
+            str = str + value
+           })
+           let m =document.getElementById("msg")
+           m.innerHTML = str
+        };
+        // function sqr() {
+        //     let n = document.getElementById("txtNum").value
+        //     result.innerHTML = n*n
+        // }
+        // const sqr = () => {
+        //     let n = document.getElementById("txtNum").value
+        //     result.innerHTML = n*n
+        // }
+    </script>
+</head>
+<body>
+    <button onclick="f1()">Submit</button>
+
+    <!-- <input type="text" id="txtNum">
+    <button onclick="sqr()">Submit</button>
+    <hr>
+    <div id="result"></div> -->
+     <div id="msg"></div>
+    <!-- <p id="para"></p>
+    <script>
+       let a=10
+       let b=20
+       let c=a+b
+       let m = document.getElementById("msg")
+       m.innerHTML = c
+       let p = document.getElementById("para")
+       p.innerHTML = c
+       //document.write(c)
+       //console.log(c)  -->
+    </script>
+</body>
+</html>

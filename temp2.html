@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const f1 = () => {
+            const products = [
+                { name: "Product1", price:35},
+                { name: "Product2", price:45},
+                { name: "Product3", price:75}
+            ];
+            let str = ""
+            products.map((value, index) => {
+                str = str + value.name + " - " + value.price +  "  <button>Delete</button><br><br>";
+            });
+            let m = document.getElementById("msg");
+            //m.innerHTML = products[2].price
+            m.innerHTML = str;
+        };
+        
+    </script>
+</head>
+<body>
+    <button onclick="f1()">Submit</button>
+    <hr>
+    <div id="msg"></div>
+</body>
+</html>

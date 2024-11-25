@@ -1,3 +1,4 @@
+//commands used in MongoDB
 db.Products.insertOne(
     {
         "name":"Product 1",
