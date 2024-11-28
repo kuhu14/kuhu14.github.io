@@ -1,6 +1,10 @@
 import React from 'react'
-
+import { useNavigate } from 'react-router-dom';
 export default function Signup() {
+    const Navigate = useNavigate();
+  const handleLogin = () =>{
+    Navigate("/login")
+  };
   return (
     <div>
         Signup
@@ -19,7 +23,7 @@ export default function Signup() {
         <button>Sign Up</button>
         <hr></hr>
         <p>Already a member?</p>
-        <button> Login Here</button>
+        <button onClick={handleLogin}> Login Here</button>
     </div>
   );
 };
